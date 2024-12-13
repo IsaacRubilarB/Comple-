@@ -5,21 +5,54 @@
     android:id="@+id/mobile_navigation"
     app:startDestination="@+id/nav_home">
 
+    <!-- Home Fragment -->
     <fragment
         android:id="@+id/nav_home"
         android:name="com.example.comple.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
+    <!-- Gallery Fragment -->
     <fragment
         android:id="@+id/nav_gallery"
         android:name="com.example.comple.ui.gallery.GalleryFragment"
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_gallery" />
 
+    <!-- Slideshow Fragment -->
     <fragment
         android:id="@+id/nav_slideshow"
         android:name="com.example.comple.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+
+    <!-- Login Fragment -->
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="com.example.comple.ui.LoginFragment"
+        android:label="Iniciar Sesión"
+        tools:layout="@layout/fragment_login">
+        <!-- Action to navigate to RegisterFragment -->
+        <action
+            android:id="@+id/action_nav_login_to_nav_register"
+            app:destination="@id/nav_register" />
+    </fragment>
+
+    <!-- Register Fragment -->
+    <fragment
+        android:id="@+id/nav_register"
+        android:name="com.example.comple.ui.RegisterFragment"
+        android:label="Registro"
+        tools:layout="@layout/fragment_register">
+        <!-- Action to navigate back to LoginFragment -->
+        <action
+            android:id="@+id/action_registerFragment_to_nav_login"
+            app:destination="@id/nav_login" />
+    </fragment>
+
+    <!-- Global action for LoginFragment -->
+    <action
+        android:id="@+id/action_global_loginFragment"
+        app:destination="@id/nav_login" />
+
 </navigation>

@@ -10,7 +10,11 @@ pluginManagement {
         mavenCentral()
         gradlePluginPortal()
     }
+    plugins {
+        id("org.jetbrains.kotlin.kapt") version "1.9.0"
+    }
 }
+
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
@@ -21,4 +25,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "Comple+"
 include(":app")
- 

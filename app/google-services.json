@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "549367136667",
+    "project_id": "complemas-b8b6d",
+    "storage_bucket": "complemas-b8b6d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549367136667:android:c91f366fca0d979021613e",
+        "android_client_info": {
+          "package_name": "com.example.comple"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnRHwWiMOWooZ9WX5hg9O0ubtYW_5kwjo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

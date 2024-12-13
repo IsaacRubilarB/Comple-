@@ -17,4 +17,9 @@
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_slideshow" />
     </group>
+
+    <item
+        android:id="@+id/nav_login"
+        android:icon="@drawable/baseline_login_24"
+    android:title="Iniciar Sesión" />
 </menu>

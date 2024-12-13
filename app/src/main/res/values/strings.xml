@@ -1,13 +1,26 @@
 <resources>
-    <string name="app_name">Comple+</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
-    <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
+    <!-- App Name -->
+    <string name="app_name">Tocomple Mania</string>
 
-    <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
+    <!-- Navigation Drawer -->
+    <string name="navigation_drawer_open">Abrir menú de navegación</string>
+    <string name="navigation_drawer_close">Cerrar menú de navegación</string>
+
+    <!-- Navigation Header -->
+    <string name="nav_header_title">¡Bienvenidos a Tocomple Mania!</string>
+    <string name="nav_header_subtitle">Satisface tu antojo por completos</string>
+    <string name="nav_header_desc">Encabezado del menú de navegación</string>
+
+    <!-- Action Items -->
+    <string name="action_settings">Configuraciones</string>
+
+    <!-- Menu Items -->
+    <string name="menu_home">Inicio</string>
+    <string name="menu_gallery">Galería de Completos</string>
+    <string name="menu_slideshow">Explorar</string>
+    <string name="menu_login">Iniciar Sesión</string>
+    <string name="menu_register">Registrarse</string>
+
+    <!-- Placeholder Text -->
+    <string name="hello_blank_fragment">Fragmento en blanco</string>
 </resources>
